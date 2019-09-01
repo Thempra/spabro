@@ -1,12 +1,14 @@
+#include "canvas.h"
+#include "dialog.h"
+
 #include <QApplication>
-#include <QWebView>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    QWebView view;
-    view.show();
-    view.load(QUrl("http://google.com"));
+    Canvas w;
+    w.setWindowTitle("Spabro");
+    w.show();
 
     return a.exec();
 }
