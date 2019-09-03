@@ -1,5 +1,4 @@
 #include "canvas.h"
-#include "dialog.h"
 
 #include <QApplication>
 

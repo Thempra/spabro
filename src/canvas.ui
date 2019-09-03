@@ -45,7 +45,7 @@
      <item>
       <widget class="QLineEdit" name="urlEdit">
        <property name="text">
-        <string/>
+        <string>www.google.com</string>
        </property>
       </widget>
      </item>
@@ -68,7 +68,7 @@
      </property>
      <property name="url">
       <url>
-       <string>https://www.google.es/</string>
+       <string>https://www.google.com/</string>
       </url>
      </property>
     </widget>

@@ -9,16 +9,13 @@ TEMPLATE = app
 
 SOURCES += \
     src/canvas.cpp \
-    src/dialog.cpp \
     src/main.cpp \
 
 FORMS += \
     src/canvas.ui \
-    src/dialog.ui \
 
 HEADERS += \
     src/canvas.h \
-    src/dialog.h \
 
 SUBDIRS += \
     tests/tests.pro
