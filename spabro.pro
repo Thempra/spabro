@@ -7,11 +7,18 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = spabro
 TEMPLATE = app
 
-SOURCES += main.cpp \
-    canvas.cpp
+SOURCES += \
+    src/canvas.cpp \
+    src/dialog.cpp \
+    src/main.cpp \
 
 FORMS += \
-    canvas.ui
+    src/canvas.ui \
+    src/dialog.ui \
 
 HEADERS += \
-    canvas.h
+    src/canvas.h \
+    src/dialog.h \
+
+SUBDIRS += \
+    tests/tests.pro
